@@ -1,0 +1,41 @@
+.login_div {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  border-radius: 6spx;
+  display: flex;
+  width: 30vw;
+  flex-direction: column;
+  gap: 1rem;
+
+  background-color:#e5e5e5;
+  box-shadow: -3px 2px 9px 5px rgba(23, 23, 24, 0.56);
+  border-radius: 16px;
+  align-items: center;
+  padding: 2rem;
+}
+.login-logo {
+  font-style: 20px;
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.account_handling {
+  font-style: 20px;
+  font-weight: 500;
+}
+.account_handling a {
+  text-decoration: none;
+  color: darkblue;
+}

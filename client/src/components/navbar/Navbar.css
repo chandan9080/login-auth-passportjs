@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: -5px 9px 15px 1px rgba(69, 69, 64, 0.33);
+  gap: 1rem;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  text-shadow: 10px -1px 15px rgba(0, 0, 0, 0.69);
+  letter-spacing: 10px;
+  width: 20%;
+}
+.btn-logout {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.left-nav-element {
+  display: flex;
+
+  align-items: center;
+  padding: 0.5rem;
+  width: 60%;
+  align-items: center;
+  justify-content: space-around;
+}
